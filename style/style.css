@@ -22,6 +22,7 @@ li,a,button{
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    
 }
 header{
     display: flex;
@@ -29,7 +30,11 @@ header{
     align-content: flex-end;
     padding:30px 10%;
     border-bottom: 1px solid white;
-    background-color: black;
+    background-color: #000000;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 .logo{
     cursor: pointer;
@@ -77,7 +82,7 @@ button:hover{
     color: white;
     text-align: center;
     font-family: "Montserrat",sans-serif;
-    margin-top: 140px;
+    margin-top: 200px;
 }
 .welcome h3{
     margin-right: 330px !important;
@@ -107,7 +112,39 @@ button:hover{
     height: 2px;
     background-color: white;
     margin-left: 25%;
-    margin-top: 450px;
+    margin-top: 700px;
+}
+.under2{
+    margin-top: 100px;
+    background-color: white ;
+    height: 100px;
+    width: 100%;
+    
+}
+/* .garisbawah2{
+    width: 700px;
+    height: 2px;
+    background-color: black;
+    margin-left: 25%;
+    margin-top: 0px;
+} */
+.underline3{
+    width: 160px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.parentcontact{
+    background-color: white;
+    font-family: "Montserrat",sans-serif;
+}
+.contact{
+    color: black;
+    margin-top: 10px;
+    padding-bottom: 100px;
+    justify-content: start;
+    background-color: white;
+    margin-left: 800px;
 }
 .underline{
     width: 160px;
@@ -135,17 +172,7 @@ button:hover{
 .boutme{
     margin-bottom: 5px;
 }
-.contactme{
-    color: black;
-    padding-bottom: 10px;
-    justify-content: start;
-    background-color: white;
-    margin-left: 85px;
-}
-.parentcontact{
-    background-color: white;
-    font-family: "Montserrat",sans-serif;
-}
+
 .contactme h2{
     padding-top: 40px;
 }
@@ -159,4 +186,27 @@ button:hover{
     height: 2px;
     background-color: black;
     margin-bottom: 20px;
+
+}
+.pemisah{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+.foot{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat",sans-serif;
+    padding: 100px 0 60px 0;
+	text-align: center;
+}
+
+.foot h4{
+    font-size: 5vh;
+    display: block;
+}
+.foot p{
+    padding-top: 20px;
 }
