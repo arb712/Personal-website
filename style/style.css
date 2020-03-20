@@ -16,6 +16,15 @@ body{
     border-bottom: white;
     background-color: black;
 }
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+    background:black;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba(0,136,169,0.8);    
+}
 li,a,button{
     font-family: "Montserrat",sans-serif;
     font-weight: 500;
@@ -178,27 +187,6 @@ button:hover{
 }
 .boutme{
     margin-bottom: 5px;
-}
-
-.contactme h2{
-    padding-top: 40px;
-}
-.contactme h3{
-    padding-bottom: 38px;
-    text-transform: capitalize;
-    
-}
-.underline2{
-    width: 160px;
-    height: 2px;
-    background-color: black;
-    margin-bottom: 20px;
-
-}
-.pemisah{
-    height: 100px;
-    width: 100%;
-    background-color: blue;
 }
 .foot{
     height: 300px;
