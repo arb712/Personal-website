@@ -208,4 +208,8 @@ button:hover{
 .contList{
 display: flex;
 flex-direction: column;
+
+}
+.contList a{
+    transition:all 0.3s ease 0s;
 }
