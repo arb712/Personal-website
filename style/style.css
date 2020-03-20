@@ -146,6 +146,13 @@ button:hover{
     background-color: white;
     margin-left: 800px;
 }
+.contact a{
+    size: 50px;
+    color: black;
+}
+.contact a:hover{
+    color: rgba(0,136,169,1);
+}
 .underline{
     width: 160px;
     height: 2px;
@@ -209,4 +216,8 @@ button:hover{
 }
 .foot p{
     padding-top: 20px;
+}
+.contList{
+display: flex;
+flex-direction: column;
 }
