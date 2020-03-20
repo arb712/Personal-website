@@ -4,4 +4,4 @@
 
 ***
 ```
-This is just prototype website design for personal website
+This is just a prototype website design for personal website
